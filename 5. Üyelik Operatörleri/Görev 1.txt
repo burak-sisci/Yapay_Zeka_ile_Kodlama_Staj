@@ -1,0 +1,4 @@
+meyveler = ["elma", "armut", "çilek", "kiraz"]  
+print(meyveler)
+sorgu = str(input("sorgulanacak meyveyi yaz: "))
+print("listede var.") if sorgu in meyveler else print("listede yok.")

@@ -1,0 +1,10 @@
+metin = str(input("bir metin gir: "))
+metin = metin.upper().strip().replace("A", "E")
+print(metin)
+kelimeler = metin.split()
+print(kelimeler)
+
+#strip() → Baş/son boşlukları temizler.
+#upper() → Tüm harfler büyük olur (a → A).
+#replace("A", "E") → Büyük A'lar E'ye dönüşür.
+#split() → Boşluklara göre kelimeleri listeye ayırır.

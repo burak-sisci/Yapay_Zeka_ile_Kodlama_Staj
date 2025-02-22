@@ -1,0 +1,7 @@
+sayi = int(input("bir sayı gir: "))
+sayi_cift_mi = sayi%2 == 0 
+
+if sayi_cift_mi:
+    print(sayi_cift_mi)
+else:
+    print(sayi_cift_mi)

@@ -1,0 +1,9 @@
+isim = "Burak" 
+yas = 25 
+boy = 180 
+ogrenci_mi = True 
+
+print("İsim:", isim)
+print("Yaş:", yas)
+print("Boy:", boy)
+print("Öğrenci mi?:", ogrenci_mi)

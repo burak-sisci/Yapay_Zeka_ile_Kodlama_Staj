@@ -1,0 +1,4 @@
+dogum_yili = int(input("Doğum yılınızı girin: "))
+yas = 2025 - dogum_yili
+
+print("Yaşınız:", yas)

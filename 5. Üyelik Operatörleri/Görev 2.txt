@@ -1,0 +1,3 @@
+parola = "PyThOn123"
+karakter = str(input("bir karakter gir: "))
+print("bu karakter parolada yok") if karakter not in parola else print("bu karakter parolada var")

@@ -1,0 +1,14 @@
+a = 256
+b = 256
+print("a = 256")
+print("b = 256")
+print(a is b)  # Sonuç ne olur? Neden?
+
+c = 257
+d = 257
+print("c = 257")
+print("d = 257")
+
+print(c is d)  # Sonuç ne olur? Neden?
+
+print("sonuç neden farklı olur? \n" + "is bellek adreslerini kontrol eder. \na ve b karşılaştırmasında Python'un önbelleklediği tamsayı aralığında (-5 ile 256) olduğu için a ve b aynı bellek adresini gösterdiğinden \nTrue\" döner ancak c ve d farklı bellek adreslerini gösterdiğinden is operatörü \"False\" döner.")

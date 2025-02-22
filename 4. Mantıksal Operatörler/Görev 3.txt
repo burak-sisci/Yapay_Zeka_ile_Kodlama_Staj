@@ -1,0 +1,6 @@
+yas = int(input("yaşını gir: "))
+if yas>18: 
+  ehliyet_var_mi = int(input("ehliyet var mı? (0 veya 1): "))
+cikti = yas>18 and ehliyet_var_mi
+
+print("Araba kullanabilirsiniz") if cikti else print("Araba kullanamazsınız")

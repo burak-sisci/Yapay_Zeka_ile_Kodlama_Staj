@@ -1,0 +1,7 @@
+yas = int(input("yaşını gir.")) 
+if yas>18 and yas<65:
+    print("çalışma yaşı içinde") 
+elif yas<18 or yas>65:
+    print("çalışma yaşı içinde değil") 
+if yas == 25:
+    print("yaş 25'e eşit") 

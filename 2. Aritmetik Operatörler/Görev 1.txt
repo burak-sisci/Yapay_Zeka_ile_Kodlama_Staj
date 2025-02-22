@@ -1,0 +1,10 @@
+sayi = int(input("Bir sayı giriniz."))
+sayi2 = int(input("Bir sayı daha diriniz"))
+
+print("sayıların toplamı= ", sayi + sayi2,)
+print("sayıların farkı= ", sayi - sayi2)
+print("sayıların çarpımı= ", sayi * sayi2)
+print("sayıların bölümü= ", sayi / sayi2)
+print("sayıların tam bölümü= ", sayi // sayi2)
+print("sayıların modu=", sayi % sayi2)
+print("1. sayının 2. sayıya göre üssü= ", sayi ** sayi2) 
